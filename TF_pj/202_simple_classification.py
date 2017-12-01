@@ -1,7 +1,7 @@
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
-
+# generate the same repeatable sequence for an op across sessions, set the seed for the op:
 tf.set_random_seed(1)
 np.random.seed(1)
 
